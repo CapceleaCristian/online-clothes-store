@@ -1,0 +1,18 @@
+.main-open {
+  overflow: hidden;
+}
+
+.main-filter-open {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ccc;
+  opacity: 0.6;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+}

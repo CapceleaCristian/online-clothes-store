@@ -1,0 +1,27 @@
+.pagination {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.page:not(:last-child) {
+  margin-right: 10px;
+}
+
+.page:hover {
+  background-color: #ccc;
+  transition: 0.3s;
+}
+
+.page-active {
+  background-color: #ccc;
+}
